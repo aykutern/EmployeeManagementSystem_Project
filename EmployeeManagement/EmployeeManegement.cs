@@ -22,6 +22,7 @@ namespace EmployeeManagement
         public EmployeeManegement(String frm_role)
         {
             InitializeComponent();
+            this.AcceptButton = btnAdd;
             this.frm_role = frm_role;
         }
         

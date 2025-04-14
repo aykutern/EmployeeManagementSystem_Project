@@ -78,6 +78,7 @@
             this.Controls.Add(this.btnManageEmployees);
             this.Controls.Add(this.lblWelcome);
             this.Name = "frmMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
             this.ResumeLayout(false);
             this.PerformLayout();

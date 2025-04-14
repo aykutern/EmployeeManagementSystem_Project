@@ -86,7 +86,7 @@
             this.txtUsernameLogin.Multiline = true;
             this.txtUsernameLogin.Name = "txtUsernameLogin";
             this.txtUsernameLogin.Size = new System.Drawing.Size(200, 25);
-            this.txtUsernameLogin.TabIndex = 2;
+            this.txtUsernameLogin.TabIndex = 1;
             // 
             // label1
             // 
@@ -115,7 +115,7 @@
             this.btnLogin.Location = new System.Drawing.Point(50, 180);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(100, 30);
-            this.btnLogin.TabIndex = 4;
+            this.btnLogin.TabIndex = 3;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
@@ -127,7 +127,7 @@
             this.btnRegister.Location = new System.Drawing.Point(180, 180);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(100, 30);
-            this.btnRegister.TabIndex = 5;
+            this.btnRegister.TabIndex = 4;
             this.btnRegister.Text = "Register";
             this.btnRegister.UseVisualStyleBackColor = true;
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
@@ -148,6 +148,7 @@
             this.Controls.Add(this.lblUsername);
             this.Controls.Add(this.lblTitle);
             this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -21,6 +21,7 @@ namespace EmployeeManagement
         public frmMain(String username, String role)
         {
             InitializeComponent();
+            this.AcceptButton = btnManageEmployees;
             frm_username = username;
             frm_role = role;
             lblWelcome.Text = "Welcome " + frm_username + "!";

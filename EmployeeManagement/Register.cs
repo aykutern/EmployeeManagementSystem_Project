@@ -15,7 +15,9 @@ namespace EmployeeManagement
     {
         public frmRegister()
         {
+
             InitializeComponent();
+            this.AcceptButton = btnRegister;
         }
 
         private void btnRegister_Click(object sender, EventArgs e)

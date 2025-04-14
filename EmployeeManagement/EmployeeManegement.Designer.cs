@@ -87,7 +87,7 @@
             this.btnAdd.Location = new System.Drawing.Point(50, 180);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(120, 30);
-            this.btnAdd.TabIndex = 6;
+            this.btnAdd.TabIndex = 4;
             this.btnAdd.Text = "Add Employee";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
@@ -119,7 +119,7 @@
             this.txtPosition.Multiline = true;
             this.txtPosition.Name = "txtPosition";
             this.txtPosition.Size = new System.Drawing.Size(200, 20);
-            this.txtPosition.TabIndex = 1;
+            this.txtPosition.TabIndex = 2;
             // 
             // txtSalary
             // 
@@ -128,7 +128,7 @@
             this.txtSalary.Multiline = true;
             this.txtSalary.Name = "txtSalary";
             this.txtSalary.Size = new System.Drawing.Size(200, 20);
-            this.txtSalary.TabIndex = 1;
+            this.txtSalary.TabIndex = 3;
             this.txtSalary.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSalary_KeyPress);
             // 
             // btnEdit
@@ -138,7 +138,7 @@
             this.btnEdit.Location = new System.Drawing.Point(180, 180);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(120, 30);
-            this.btnEdit.TabIndex = 6;
+            this.btnEdit.TabIndex = 5;
             this.btnEdit.Text = "Edit Employee";
             this.btnEdit.UseVisualStyleBackColor = true;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
@@ -170,7 +170,7 @@
             this.dgvEmployees.Name = "dgvEmployees";
             this.dgvEmployees.ReadOnly = true;
             this.dgvEmployees.Size = new System.Drawing.Size(600, 200);
-            this.dgvEmployees.TabIndex = 7;
+            this.dgvEmployees.TabIndex = 11;
             this.dgvEmployees.SelectionChanged += new System.EventHandler(this.dgvEmployees_SelectionChanged);
             // 
             // employeeIDDataGridViewTextBoxColumn
@@ -245,7 +245,7 @@
             this.txtFilter.Multiline = true;
             this.txtFilter.Name = "txtFilter";
             this.txtFilter.Size = new System.Drawing.Size(120, 30);
-            this.txtFilter.TabIndex = 9;
+            this.txtFilter.TabIndex = 7;
             // 
             // lblSearch
             // 
@@ -264,7 +264,7 @@
             this.btnFilter.Location = new System.Drawing.Point(530, 76);
             this.btnFilter.Name = "btnFilter";
             this.btnFilter.Size = new System.Drawing.Size(120, 30);
-            this.btnFilter.TabIndex = 11;
+            this.btnFilter.TabIndex = 8;
             this.btnFilter.Text = "FilterEmployee";
             this.btnFilter.UseVisualStyleBackColor = true;
             this.btnFilter.Click += new System.EventHandler(this.btnFilter_Click);
@@ -276,7 +276,7 @@
             this.btnCVS.Location = new System.Drawing.Point(530, 112);
             this.btnCVS.Name = "btnCVS";
             this.btnCVS.Size = new System.Drawing.Size(120, 30);
-            this.btnCVS.TabIndex = 12;
+            this.btnCVS.TabIndex = 9;
             this.btnCVS.Text = "Export CVS";
             this.btnCVS.UseVisualStyleBackColor = true;
             this.btnCVS.Click += new System.EventHandler(this.btnCVS_Click);
@@ -288,7 +288,7 @@
             this.btnExcel.Location = new System.Drawing.Point(530, 142);
             this.btnExcel.Name = "btnExcel";
             this.btnExcel.Size = new System.Drawing.Size(120, 30);
-            this.btnExcel.TabIndex = 13;
+            this.btnExcel.TabIndex = 10;
             this.btnExcel.Text = "Export Excel";
             this.btnExcel.UseVisualStyleBackColor = true;
             this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
@@ -318,6 +318,7 @@
             this.Controls.Add(this.lblName);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "EmployeeManegement";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EmployeeManegement";
             this.Load += new System.EventHandler(this.EmployeeManegement_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmployees)).EndInit();
